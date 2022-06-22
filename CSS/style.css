@@ -1,0 +1,285 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: black;
+    font-size: 25px;
+    margin-left: 50px;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    padding-left: 70px;
+    display: inline-block;
+    line-height: 80px;
+}
+nav ul li a{
+    color: black;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    background-color: rgb(104, 104, 255);
+    padding: 7px;
+    color: white;
+    border: 1px solid ;
+    border-radius: 25px;
+}
+#Home{
+    text-decoration: underline;
+}
+#Dashboard{
+    text-decoration: underline;
+}
+#login{
+    text-decoration: underline;
+}
+/************************************************************************/
+main{
+    display: grid;
+    grid-template-columns: 250px 1020px;
+    height: 520px;
+    margin-top: 2px;
+}
+.leftbar{
+    border: 2px solid snow;
+    box-shadow: 7px 2px 2px 4px  rgb(220, 218, 218);
+    border-radius: 15px;
+    text-align: center;
+    font-size: large;
+}
+.p1{
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+#leftbarp1{
+    margin-top: 30px;
+}
+.p2{
+    margin-top: 40px;
+}
+#leftbarp2{
+    margin-top: 30px;
+}
+.links{
+    margin-top: 35px;
+}
+.links img{
+    margin-left: 22px;
+}
+/*******************************************************************************/
+.rightbar{
+    margin-left: 20px;
+    border: 1px solid snow;
+    border-radius: 15px;
+    box-shadow: 0px 2px 2px 5px   rgb(220, 218, 218);
+}
+#pnj1{
+    width: 200px;
+    height: 200px;
+}
+#centertext{
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+}
+#pnj2{
+    width: 200px;
+    height: 220px;
+    margin-left: 80%;
+    border-radius: 100px ;
+}
+/****************************Dashboard*********************************/
+#board-p1{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+#My-Profile{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-decoration: underline;
+}
+#My-Profile:hover{
+    background-color: rgb(104, 104, 255);
+    padding: 7px;
+    color: white;
+    border: 1px solid ;
+    border-radius: 25px;
+}
+#pnj3{
+    width: 250px;
+    height: 180px;
+    float: right;
+}
+#pnj4{
+    width: 260px;
+    height: 180px;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.content{
+    margin-top: 80px;
+    margin-left: 120px;
+    font-size: 20px
+}
+#content1{
+    margin-top: 20px;
+}
+#Edit-Profile{
+    margin-top: 50px;
+    margin-left:120px ;
+    text-decoration: underline;
+}
+#Edit-Profile:hover{
+    color: red;
+    cursor: pointer;
+}
+/*********************************** Login ***********************************/
+.loginbbox{
+    width: 50%;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 22%;
+    border: 3px solid rgb(207, 206, 206);
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 2px rgb(164, 163, 163);
+}
+#Email{
+    margin-top: 70px;
+    margin-left: 50px;
+    color: rgb(86, 85, 85);
+}
+#hr1{
+    width: 85%;
+    height: none;
+}
+#Password{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: rgb(86, 85, 85);
+}
+#login-btn{
+    background-color: white;
+    border: 2px solid rgb(210, 208, 208);
+    color: rgb(86, 85, 85);
+    margin-top: 50px;
+    width: 85%;
+    height: 50px;
+    font-size: 20px;
+}
+#login-btn:hover{
+    background-color: rgb(104, 104, 255);
+    color: white;
+}
+#login-btn a{
+    text-decoration: none;
+    color: rgb(86, 85, 85);
+}
+#login-btn a:hover{
+    color: white;
+}
+
+#endl{
+    margin-top: 90px;
+    text-align: center;
+    color: gray;
+}
+#Register{
+    color: gray;
+    text-decoration: underline;
+}
+#Register:hover{
+    color: red;
+}
+/*********************************** Register ***********************************/
+#name{
+    margin-top: 25px;
+    margin-left: 50px;
+    color: rgb(86, 85, 85);
+}
+#email{
+    margin-top: 25px;
+    margin-left: 50px;
+    color: rgb(86, 85, 85);
+}
+#password{
+    margin-top: 25px;
+    margin-left: 50px;
+    color: rgb(86, 85, 85);
+}
+#confirmpassword{
+    margin-top: 25px;
+    margin-left: 50px;
+    color: rgb(86, 85, 85);
+}
+#end2{
+    margin-top: 30px;
+    text-align: center;
+    color: gray;
+}
+#sorrypnj{
+    margin-top: 90px;
+    height: 350px;
+    width: 400px;
+    border: 2px solid blueviolet;
+    border-radius: 25px;
+    box-shadow: 2px 2px 20px 2px rgb(173, 171, 171);
+}
+
+
+/*********************************** Responsive Work ***********************************/
+@media only screen and (max-width:1140px){
+    nav{
+        /* background-color: aqua; */
+    }
+    label.logo{
+        font-size: 25px;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+    nav ul{
+        float: center;
+        margin-right: 0px;
+    }
+    nav ul li{
+
+        line-height: 80px;
+        margin: 0px;
+    }
+    
+    /**************************************************************************/
+    main{
+        grid-template-columns: 150px 695px;
+    }
+    .links{
+        margin-top: 35px;
+    }
+    .links img{
+        margin-left: 10px;
+        margin-right: 2px;
+    }
+    /*******************************************************************************/
+    #pnj1{
+        margin-bottom: 15px;
+    }
+    #pnj2{
+        margin-left: 68%;
+        margin-top: 15px;
+    }
+        
+}
+
+
+
+
+
+
